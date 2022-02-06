@@ -967,6 +967,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.12",
+      "Newtonsoft.Json >= 13.0.1",
       "RestSharp >= 107.2.1",
       "wow.Client >= 1.0.0",
       "wow.Shared >= 1.0.0"
@@ -1021,6 +1022,10 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[5.0.12, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           },
           "RestSharp": {
             "target": "Package",

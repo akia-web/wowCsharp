@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System;
 using Newtonsoft.Json;
-using static wow.Server.Models.UserBnet;
+
 using wow.Server.Models;
 using System.Threading.Tasks;
 using System.Net;
-using RestSharp;
+using Microsoft.Net.Http.Headers;
 
 namespace wow.Server.Controllers
 {
@@ -58,13 +58,14 @@ namespace wow.Server.Controllers
             System.IO.File.WriteAllText($"Json/identifiants/{battleTag}.json", json);
 
             //création du cookie
-            Uri uri = new Uri("https://localhost:44367");
-            Cookie cookie = new Cookie("tokenbnetc", token);
-            HttpWebRequest requestcookie = WebRequest.Create(uri) as HttpWebRequest;
-            requestcookie.CookieContainer = new CookieContainer();
-            requestcookie.CookieContainer.Add(uri, cookie);
+            //Uri uri = new Uri("https://localhost:44367");
+            //Cookie cookie = new Cookie("tokenbnetc", token);
+            //HttpWebRequest requestcookie = WebRequest.Create(uri) as HttpWebRequest;
+            //requestcookie.CookieContainer = new CookieContainer();
+            //requestcookie.CookieContainer.Add(uri, cookie);
 
-
+           HttpContext.Response.Cookies.Append("TokenBnet", token);
+            
 
 
             return Redirect("https://localhost:44367/counter"); 

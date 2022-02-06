@@ -34,6 +34,7 @@
       "wow.Server/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "5.0.12",
+          "Newtonsoft.Json": "13.0.1",
           "RestSharp": "107.2.1",
           "wow.Client": "1.0.0",
           "wow.Shared": "1.0.0",

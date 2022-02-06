@@ -1,0 +1,31 @@
+﻿@page "/lalala"
+@inject HttpClient request
+
+
+
+<h3>lalala</h3>
+<!-- <img src="/images/panda.png" />   -->
+@if(chiffre == 42)
+{
+<p>Let's go</p>
+}else
+    {
+        <p>pas cool</p>
+    }
+
+<a href="@lien" >Connexion Bnet </a>
+
+
+@code {
+    int chiffre;
+    string lien;
+    protected override async Task OnInitializedAsync()
+    {
+
+        // quand le composant est pret on execute
+        chiffre = await request.GetFromJsonAsync<int>("api/truc/machin");
+        lien =  await request.GetFromJsonAsync<string>("api/connection/connexion");
+
+        await base.OnInitializedAsync();
+    }
+}

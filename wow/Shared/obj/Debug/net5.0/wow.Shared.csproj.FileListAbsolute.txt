@@ -1,0 +1,12 @@
+C:\projet__#\wow\wow\Shared\bin\Debug\net5.0\wow.Shared.deps.json
+C:\projet__#\wow\wow\Shared\bin\Debug\net5.0\wow.Shared.dll
+C:\projet__#\wow\wow\Shared\bin\Debug\net5.0\ref\wow.Shared.dll
+C:\projet__#\wow\wow\Shared\bin\Debug\net5.0\wow.Shared.pdb
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.csproj.AssemblyReference.cache
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.AssemblyInfoInputs.cache
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.AssemblyInfo.cs
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.csproj.CoreCompileInputs.cache
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.dll
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\ref\wow.Shared.dll
+C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.pdb

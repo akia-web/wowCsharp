@@ -30,7 +30,7 @@ namespace wow.Server.Controllers
 
         [HttpGet("connexionBnet")]
 
-        public async Task<RedirectResult> battlenetConnexion()
+        public async Task<object> battlenetConnexion()
         {
             string bnetId = "98c2bdee08894fceadeeb67c8da8b84a";
             string bnetSecret = "ThCcekYZWYmEJKcVR0BNPPafTP7paP8M";
@@ -58,16 +58,10 @@ namespace wow.Server.Controllers
             System.IO.File.WriteAllText($"Json/identifiants/{battleTag}.json", json);
 
             //création du cookie
-            //Uri uri = new Uri("https://localhost:44367");
-            //Cookie cookie = new Cookie("tokenbnetc", token);
-            //HttpWebRequest requestcookie = WebRequest.Create(uri) as HttpWebRequest;
-            //requestcookie.CookieContainer = new CookieContainer();
-            //requestcookie.CookieContainer.Add(uri, cookie);
-
-           HttpContext.Response.Cookies.Append("TokenBnet", token);
+            HttpContext.Response.Cookies.Append("TokenBnet", token);
+            var truc = Request.Cookies["tokenBnet"];
+            Console.WriteLine(truc);
             
-
-
             return Redirect("https://localhost:44367/counter"); 
         }
     }

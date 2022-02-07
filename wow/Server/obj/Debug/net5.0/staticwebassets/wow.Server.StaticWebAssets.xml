@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\projet__#\wow\wow\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\projet__#\wow\wow\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/" Path="C:\projet__#\wow\wow\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Desktop\projet\wow\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Desktop\projet\wow\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\Desktop\projet\wow\Client\wwwroot\" />
 </StaticWebAssets>

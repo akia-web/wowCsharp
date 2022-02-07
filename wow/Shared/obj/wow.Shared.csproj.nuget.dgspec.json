@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj": {}
+    "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj": {}
   },
   "projects": {
-    "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj": {
+    "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj",
+        "projectUniqueName": "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj",
         "projectName": "wow.Shared",
-        "projectPath": "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj",
-        "packagesPath": "C:\\Users\\Charline\\.nuget\\packages\\",
-        "outputPath": "C:\\projet__#\\wow\\wow\\Shared\\obj\\",
+        "projectPath": "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj",
+        "packagesPath": "C:\\Users\\chroy\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\projet\\wow\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Charline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,12 +49,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

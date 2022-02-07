@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using wow.Server.Services;
 
 namespace wow.Server
 {
@@ -25,6 +26,8 @@ namespace wow.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddScoped<PersonnageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

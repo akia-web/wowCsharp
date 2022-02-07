@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projet__#\\wow\\wow\\Server\\wow.Server.csproj": {}
+    "D:\\Desktop\\projet\\wow\\Server\\wow.Server.csproj": {}
   },
   "projects": {
-    "C:\\projet__#\\wow\\wow\\Client\\wow.Client.csproj": {
+    "D:\\Desktop\\projet\\wow\\Client\\wow.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projet__#\\wow\\wow\\Client\\wow.Client.csproj",
+        "projectUniqueName": "D:\\Desktop\\projet\\wow\\Client\\wow.Client.csproj",
         "projectName": "wow.Client",
-        "projectPath": "C:\\projet__#\\wow\\wow\\Client\\wow.Client.csproj",
-        "packagesPath": "C:\\Users\\Charline\\.nuget\\packages\\",
-        "outputPath": "C:\\projet__#\\wow\\wow\\Client\\obj\\",
+        "projectPath": "D:\\Desktop\\projet\\wow\\Client\\wow.Client.csproj",
+        "packagesPath": "C:\\Users\\chroy\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\projet\\wow\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Charline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj": {
-                "projectPath": "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj"
+              "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj"
               }
             }
           }
@@ -74,8 +74,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[5.0.13, 5.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -83,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -92,17 +104,17 @@
         }
       }
     },
-    "C:\\projet__#\\wow\\wow\\Server\\wow.Server.csproj": {
+    "D:\\Desktop\\projet\\wow\\Server\\wow.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projet__#\\wow\\wow\\Server\\wow.Server.csproj",
+        "projectUniqueName": "D:\\Desktop\\projet\\wow\\Server\\wow.Server.csproj",
         "projectName": "wow.Server",
-        "projectPath": "C:\\projet__#\\wow\\wow\\Server\\wow.Server.csproj",
-        "packagesPath": "C:\\Users\\Charline\\.nuget\\packages\\",
-        "outputPath": "C:\\projet__#\\wow\\wow\\Server\\obj\\",
+        "projectPath": "D:\\Desktop\\projet\\wow\\Server\\wow.Server.csproj",
+        "packagesPath": "C:\\Users\\chroy\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\projet\\wow\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Charline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,11 +128,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\projet__#\\wow\\wow\\Client\\wow.Client.csproj": {
-                "projectPath": "C:\\projet__#\\wow\\wow\\Client\\wow.Client.csproj"
+              "D:\\Desktop\\projet\\wow\\Client\\wow.Client.csproj": {
+                "projectPath": "D:\\Desktop\\projet\\wow\\Client\\wow.Client.csproj"
               },
-              "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj": {
-                "projectPath": "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj"
+              "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj"
               }
             }
           }
@@ -166,21 +178,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj": {
+    "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj",
+        "projectUniqueName": "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj",
         "projectName": "wow.Shared",
-        "projectPath": "C:\\projet__#\\wow\\wow\\Shared\\wow.Shared.csproj",
-        "packagesPath": "C:\\Users\\Charline\\.nuget\\packages\\",
-        "outputPath": "C:\\projet__#\\wow\\wow\\Shared\\obj\\",
+        "projectPath": "D:\\Desktop\\projet\\wow\\Shared\\wow.Shared.csproj",
+        "packagesPath": "C:\\Users\\chroy\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\projet\\wow\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Charline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -215,12 +227,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

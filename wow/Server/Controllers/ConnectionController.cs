@@ -42,23 +42,22 @@ namespace wow.Server.Controllers
             string requestUrl = $"https://eu.battle.net/oauth/token?code={code}&redirect_uri={urlRedirect}&client_id={bnetId}&client_secret={bnetSecret}&grant_type=authorization_code&scope=wow.profile";
             HttpClient client = new HttpClient();
             var request =  await client.PostAsync(requestUrl, null);
-            dynamic response = JsonConvert.DeserializeObject( await request.Content.ReadAsStringAsync());
+            ConnectionModel response = JsonConvert.DeserializeObject<ConnectionModel>( await request.Content.ReadAsStringAsync());
             string token = response.access_token;
 
 
             // récupère le battleTag
             requestUrl = $"https://eu.battle.net/oauth/userinfo?access_token={token}";
             request = await client.GetAsync(requestUrl);
-            response = JsonConvert.DeserializeObject(await request.Content.ReadAsStringAsync());
-            string battleTag = response.battletag;
+            UserBnet user = JsonConvert.DeserializeObject<UserBnet>(await request.Content.ReadAsStringAsync());
 
-            //inscription en json dans le dossier Json/identifiants
-            var user = new UserBnet() {token = token, battleTag = battleTag};
+            user.token = token;
+
             string json = JsonConvert.SerializeObject(user);
-            System.IO.File.WriteAllText($"Json/identifiants/{battleTag}.json", json);
+            System.IO.File.WriteAllText($"Json/identifiants/{user.battleTag}.json", json);
 
             //création du cookie
-            HttpContext.Response.Cookies.Append("TokenBnet", token);
+            HttpContext.Response.Cookies.Append("TokenBnet", token, new CookieOptions { Expires = DateTime.MaxValue});
             var truc = Request.Cookies["tokenBnet"];
             Console.WriteLine(truc);
             

@@ -10,3 +10,15 @@ C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.csproj.CoreCompileInputs
 C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.dll
 C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\ref\wow.Shared.dll
 C:\projet__#\wow\wow\Shared\obj\Debug\net5.0\wow.Shared.pdb
+D:\Desktop\projet\wow\Shared\bin\Debug\net5.0\wow.Shared.deps.json
+D:\Desktop\projet\wow\Shared\bin\Debug\net5.0\wow.Shared.dll
+D:\Desktop\projet\wow\Shared\bin\Debug\net5.0\ref\wow.Shared.dll
+D:\Desktop\projet\wow\Shared\bin\Debug\net5.0\wow.Shared.pdb
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.csproj.AssemblyReference.cache
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.AssemblyInfoInputs.cache
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.AssemblyInfo.cs
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.csproj.CoreCompileInputs.cache
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.dll
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\ref\wow.Shared.dll
+D:\Desktop\projet\wow\Shared\obj\Debug\net5.0\wow.Shared.pdb
